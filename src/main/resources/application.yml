@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: betting
+  datasource:
+    url: "jdbc:postgresql://host.docker.internal:5432/betting"
+    username: postgres
+    password: postgres
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: false
+    properties:
+      hibernate:
+        default_schema: public
+
+server:
+  port: 4000
+  servlet:
+    context-path: /${spring.application.name}
+  forward-headers-strategy: native
+
+
+
+
+#debug: true
+
