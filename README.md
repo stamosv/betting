@@ -1,4 +1,3 @@
-Hello and thanks for the review. 
 This is a Java 11 project.
 
 1. Move to path: /betting-project                                                     
@@ -14,9 +13,3 @@ This is a Java 11 project.
 7. Move to path: src/main/resources/dbinit/betting-project/tables.sql                 | There is a sql file you may run to DB IDE, so you may create both tables
 8. Download postman collection and import to a Postman tool                           | You may start project service via exposed Rest Api.
 9. Close both containers using docker-compose -f init.yml down
-
-
-For anything you need, you may call me at (+30) 6978060684 or vstamos91@gmail.com
-
-Thank you,
-Vasilis
